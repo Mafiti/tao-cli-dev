@@ -1,0 +1,22 @@
+{
+  "name": "@tao-cli-dev/core",
+  "version": "1.0.0",
+  "description": "tao-cli-dev core",
+  "author": "黄柏滔 <baitao.huang@hand-china.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"run test from core\""
+  },
+  "dependencies": {
+    "@tao-cli-dev/utils": "^1.0.0"
+  }
+}

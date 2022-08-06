@@ -1,0 +1,13 @@
+0 silly argv { _: [ 'link' ], lernaVersion: '5.3.0', '$0': 'lerna' }
+1 notice cli v5.3.0
+2 verbose rootPath /Users/huangbaitao/MY/code/study/tao-cli-dev
+3 error Error: Invalid package name "@tao-cli-dev": name can only contain URL-friendly characters
+3 error     at invalidPackageName (/Users/huangbaitao/MY/code/study/tao-cli-dev/node_modules/npm-package-arg/npa.js:89:15)
+3 error     at Result.setName (/Users/huangbaitao/MY/code/study/tao-cli-dev/node_modules/npm-package-arg/npa.js:124:11)
+3 error     at new Result (/Users/huangbaitao/MY/code/study/tao-cli-dev/node_modules/npm-package-arg/npa.js:114:23)
+3 error     at Function.resolve (/Users/huangbaitao/MY/code/study/tao-cli-dev/node_modules/npm-package-arg/npa.js:61:15)
+3 error     at /Users/huangbaitao/MY/code/study/tao-cli-dev/node_modules/@lerna/package-graph/index.js:66:30
+3 error     at Array.forEach (<anonymous>)
+3 error     at /Users/huangbaitao/MY/code/study/tao-cli-dev/node_modules/@lerna/package-graph/index.js:60:38
+3 error     at Map.forEach (<anonymous>)
+3 error     at new PackageGraph (/Users/huangbaitao/MY/code/study/tao-cli-dev/node_modules/@lerna/package-graph/index.js:49:10)
